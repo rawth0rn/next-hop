@@ -1,0 +1,114 @@
+{
+ "https://staceyoniot.com/feed/": {
+  "fails": 0
+ },
+ "https://www.iot-now.com/feed/": {
+  "fails": 0
+ },
+ "https://www.edgeir.com/feed": {
+  "fails": 0
+ },
+ "https://www.iotworldtoday.com/rss.xml": {
+  "fails": 2,
+  "last_error": "unparseable feed (<unknown>:4:104: not well-formed (invalid token))"
+ },
+ "https://www.datacenterknowledge.com/rss.xml": {
+  "fails": 0
+ },
+ "https://www.nextplatform.com/feed/": {
+  "fails": 0
+ },
+ "https://www.servethehome.com/feed/": {
+  "fails": 0
+ },
+ "https://blogs.nvidia.com/feed/": {
+  "fails": 0
+ },
+ "https://www.datacenterdynamics.com/rss": {
+  "fails": 0
+ },
+ "https://cilium.io/blog/rss.xml": {
+  "fails": 0
+ },
+ "https://aws.amazon.com/blogs/networking-and-content-delivery/feed/": {
+  "fails": 0
+ },
+ "https://www.cncf.io/feed/": {
+  "fails": 0
+ },
+ "https://www.lightreading.com/rss.xml": {
+  "fails": 0
+ },
+ "https://www.fierce-network.com/rss/xml": {
+  "fails": 0
+ },
+ "https://www.rcrwireless.com/feed": {
+  "fails": 0
+ },
+ "https://www.mobileworldlive.com/feed/": {
+  "fails": 0
+ },
+ "https://spectrum.ieee.org/feeds/topic/telecommunications.rss": {
+  "fails": 0
+ },
+ "https://blogs.cisco.com/networking/feed": {
+  "fails": 0
+ },
+ "https://www.sdxcentral.com/feed/": {
+  "fails": 2,
+  "last_error": "404 Client Error: Not Found for url: https://www.sdxcentral.com/feed/"
+ },
+ "https://www.telecompetitor.com/feed/": {
+  "fails": 2,
+  "last_error": "403 Client Error: Forbidden for url: https://www.telecompetitor.com/feed/"
+ },
+ "https://journal.uptimeinstitute.com/feed/": {
+  "fails": 0
+ },
+ "https://www.networkworld.com/feed/": {
+  "fails": 0
+ },
+ "https://spacenews.com/feed/": {
+  "fails": 0
+ },
+ "https://www.satellitetoday.com/feed/": {
+  "fails": 0
+ },
+ "https://www.nasaspaceflight.com/feed/": {
+  "fails": 0
+ },
+ "https://www.theregister.com/networks/headlines.atom": {
+  "fails": 0
+ },
+ "https://arstechnica.com/information-technology/feed/": {
+  "fails": 0
+ },
+ "https://blog.cloudflare.com/rss/": {
+  "fails": 0
+ },
+ "https://engineering.fb.com/feed/": {
+  "fails": 0
+ },
+ "https://netflixtechblog.com/feed": {
+  "fails": 0
+ },
+ "https://developer.nvidia.com/blog/feed/": {
+  "fails": 0
+ },
+ "https://rss.arxiv.org/rss/cs.NI": {
+  "fails": 0
+ },
+ "https://www.ietf.org/blog/feed/": {
+  "fails": 0
+ },
+ "https://blog.apnic.net/feed/": {
+  "fails": 0
+ },
+ "https://labs.ripe.net/rss/": {
+  "fails": 0
+ },
+ "https://blogs.juniper.net/feed": {
+  "fails": 2,
+  "last_error": "403 Client Error: Forbidden for url: https://community.hpe.com/"
+ }
+}
