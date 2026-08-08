@@ -1,0 +1,68 @@
+# Feed registry for the Next Hop pipeline.
+# source_class: press | engineering | research
+# keywords: pre-filter for broad feeds; an entry must match at least one (title+summary)
+# tbv: feed was WAF-blocked or odd during planning; fetched with browser UA, auto-disabled after 2 consecutive failures
+
+sectors:
+  iot-edge:
+    feeds:
+      - {url: "https://staceyoniot.com/feed/", name: "Stacey on IoT", source_class: press}
+      - {url: "https://www.iot-now.com/feed/", name: "IoT Now", source_class: press}
+      - {url: "https://www.edgeir.com/feed", name: "Edge Industry Review", source_class: press}
+
+  data-center:
+    feeds:
+      - {url: "https://www.datacenterknowledge.com/rss.xml", name: "Data Center Knowledge", source_class: press}
+      - {url: "https://www.nextplatform.com/feed/", name: "The Next Platform", source_class: press}
+      - {url: "https://www.servethehome.com/feed/", name: "ServeTheHome", source_class: press}
+      - {url: "https://blogs.nvidia.com/feed/", name: "NVIDIA Blog", source_class: press,
+         keywords: [network, networking, ethernet, infiniband, nvlink, dpu, optics, photonics, switch, "data center"]}
+      - {url: "https://www.datacenterdynamics.com/rss", name: "Data Center Dynamics", source_class: press}
+
+  cloud-native:
+    feeds:
+      - {url: "https://cilium.io/blog/rss.xml", name: "Cilium Blog", source_class: engineering}
+      - {url: "https://aws.amazon.com/blogs/networking-and-content-delivery/feed/", name: "AWS Networking Blog", source_class: engineering}
+      - {url: "https://www.cncf.io/feed/", name: "CNCF Blog", source_class: engineering,
+         keywords: [network, networking, ebpf, cilium, service mesh, istio, envoy, gateway, ingress, dns, cni]}
+
+  telecom:
+    feeds:
+      - {url: "https://www.lightreading.com/rss.xml", name: "Light Reading", source_class: press}
+      - {url: "https://www.fierce-network.com/rss/xml", name: "Fierce Network", source_class: press}
+      - {url: "https://www.rcrwireless.com/feed", name: "RCR Wireless", source_class: press}
+      - {url: "https://www.mobileworldlive.com/feed/", name: "Mobile World Live", source_class: press}
+      - {url: "https://spectrum.ieee.org/feeds/topic/telecommunications.rss", name: "IEEE Spectrum Telecom", source_class: press}
+      - {url: "https://blogs.cisco.com/networking/feed", name: "Cisco Networking Blog", source_class: engineering}
+
+  physical-infrastructure:
+    feeds:
+      - {url: "https://journal.uptimeinstitute.com/feed/", name: "Uptime Institute Journal", source_class: research}
+      - {url: "https://www.networkworld.com/feed/", name: "Network World", source_class: press,
+         keywords: [cable, fiber, optic, subsea, colocation, power, cooling, "data center", interconnect]}
+
+  satellite-space:
+    feeds:
+      - {url: "https://spacenews.com/feed/", name: "SpaceNews", source_class: press,
+         keywords: [broadband, constellation, starlink, kuiper, oneweb, connectivity, comms, communications, laser, "direct-to-cell", "direct to cell", ntn, backhaul, internet]}
+      - {url: "https://www.satellitetoday.com/feed/", name: "Via Satellite", source_class: press}
+      - {url: "https://www.nasaspaceflight.com/feed/", name: "NASASpaceflight", source_class: press,
+         keywords: [starlink, kuiper, constellation, broadband, comms, communications, "laser link"]}
+
+# Shared pool: fetched once, triage may route an item to any sector.
+shared:
+  - {url: "https://www.theregister.com/networks/headlines.atom", name: "The Register Networks", source_class: press}
+  - {url: "https://arstechnica.com/information-technology/feed/", name: "Ars Technica IT", source_class: press,
+     keywords: [network, networking, fiber, broadband, 5g, 6g, satellite, starlink, "data center", cable, telecom, wifi, ethernet]}
+  - {url: "https://blog.cloudflare.com/rss/", name: "Cloudflare Blog", source_class: engineering,
+     keywords: [network, networking, bgp, routing, ebpf, protocol, quic, http, dns, ddos, anycast, backbone, peering, edge]}
+  - {url: "https://engineering.fb.com/feed/", name: "Meta Engineering", source_class: engineering,
+     keywords: [network, networking, backbone, fabric, fiber, optical, "data center", traffic, routing]}
+  - {url: "https://netflixtechblog.com/feed", name: "Netflix TechBlog", source_class: engineering,
+     keywords: [network, networking, cdn, "open connect", traffic, transport, protocol]}
+  - {url: "https://developer.nvidia.com/blog/feed/", name: "NVIDIA Developer Blog", source_class: engineering,
+     keywords: [network, networking, ethernet, infiniband, nvlink, dpu, doca, rdma, "spectrum-x"]}
+  - {url: "https://rss.arxiv.org/rss/cs.NI", name: "arXiv cs.NI", source_class: research}
+  - {url: "https://www.ietf.org/blog/feed/", name: "IETF Blog", source_class: research}
+  - {url: "https://blog.apnic.net/feed/", name: "APNIC Blog", source_class: research}
+  - {url: "https://labs.ripe.net/rss/", name: "RIPE Labs", source_class: research}
