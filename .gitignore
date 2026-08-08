@@ -1,0 +1,8 @@
+.venv/
+public/
+resources/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+.hugo_build.lock

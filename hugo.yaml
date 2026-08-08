@@ -1,0 +1,61 @@
+baseURL: https://rawth0rn.github.io/next-hop/
+title: Next Hop
+theme: PaperMod
+languageCode: en-us
+timeZone: America/Los_Angeles
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 12
+
+mainSections:
+  - iot-edge
+  - data-center
+  - cloud-native
+  - telecom
+  - physical-infrastructure
+  - satellite-space
+
+outputs:
+  home: [HTML, RSS]
+  section: [HTML, RSS]
+
+params:
+  description: "Where networking goes next. AI-curated innovation across the networking stack, published weekly."
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowShareButtons: false
+  ShowRssButtonInSectionTermList: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  homeInfoParams:
+    Title: "Next Hop"
+    Content: >
+      Where networking goes next. One innovation per post, 250 to 500 words,
+      across six sectors of the networking industry. Researched and written by
+      an AI pipeline with every source cited. Published weekly.
+
+menu:
+  main:
+    - name: IoT & Edge
+      url: /iot-edge/
+      weight: 10
+    - name: Data Center
+      url: /data-center/
+      weight: 20
+    - name: Cloud Native
+      url: /cloud-native/
+      weight: 30
+    - name: Telecom
+      url: /telecom/
+      weight: 40
+    - name: Physical Infra
+      url: /physical-infrastructure/
+      weight: 50
+    - name: Satellite & Space
+      url: /satellite-space/
+      weight: 60
+    - name: About
+      url: /about/
+      weight: 70
