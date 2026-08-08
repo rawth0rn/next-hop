@@ -43,3 +43,8 @@
 {"ts": "2026-08-08T22:22:03+00:00", "run_id": "run-20260808T214824Z", "stage": "write:satellite-space", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1665, "completion_tokens": 4345, "cost_usd": 0.011862}
 {"ts": "2026-08-08T22:23:18+00:00", "run_id": "run-20260808T214824Z", "stage": "write:satellite-space", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1063, "completion_tokens": 3509, "cost_usd": 0.00918}
 {"ts": "2026-08-08T22:25:57+00:00", "run_id": "run-20260808T214824Z", "stage": "write:satellite-space", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1087, "completion_tokens": 7446, "cost_usd": 0.019267}
+{"ts": "2026-08-08T22:30:10+00:00", "run_id": "cal-20260808T222907Z", "stage": "calibrate", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1539, "completion_tokens": 7820, "cost_usd": 0.020473}
+{"ts": "2026-08-08T22:32:25+00:00", "run_id": "run-20260808T223152Z", "stage": "triage:telecom", "model": "deepseek/deepseek-v4-flash", "prompt_tokens": 4114, "completion_tokens": 542, "cost_usd": 0.000437}
+{"ts": "2026-08-08T22:33:05+00:00", "run_id": "run-20260808T223152Z", "stage": "write:telecom", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1759, "completion_tokens": 5255, "cost_usd": 0.014193}
+{"ts": "2026-08-08T22:35:50+00:00", "run_id": "run-20260808T223152Z", "stage": "write:telecom", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1305, "completion_tokens": 7683, "cost_usd": 0.019991}
+{"ts": "2026-08-08T22:39:10+00:00", "run_id": "run-20260808T223152Z", "stage": "write:telecom", "model": "moonshotai/kimi-k2-thinking", "prompt_tokens": 1743, "completion_tokens": 9906, "cost_usd": 0.02558}
