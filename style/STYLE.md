@@ -15,8 +15,8 @@ section is preserved verbatim.
 
 ## Voice
 
-- Plain prose a practitioner would write to another practitioner. No marketing register.
-- Active voice. Short sentences. One idea per paragraph.
+- Plain, concise prose. No marketing register. Tighten aggressively: remove redundant words and implied context.
+- Active voice. Short, simple sentences. One idea per paragraph.
 - Confident but literal: say what shipped, what changed, what it costs, what it replaces.
 - Skepticism is allowed and welcome when the source itself hedges. Name the hedge.
 - No hype vocabulary: banned words are game-changer, revolutionary, unleash, leverage (as a verb), delve, seamless, robust (as filler), cutting-edge, next-generation (as filler).
