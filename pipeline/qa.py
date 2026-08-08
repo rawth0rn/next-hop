@@ -18,6 +18,26 @@ BANNED = [
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 
+STOPWORDS = {"a", "an", "the", "for", "as", "of", "to", "in", "on", "and",
+             "with", "by", "at", "its", "is", "new", "from", "into"}
+
+
+def _sig_words(title: str) -> set:
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower())
+            if w not in STOPWORDS}
+
+
+def similar_title_exists(title: str, titles: set) -> str:
+    """Return the matching existing title when the new one covers the same
+    story (70 percent of its significant words already used), else ""."""
+    new = _sig_words(title)
+    if not new:
+        return ""
+    for t in titles:
+        if len(new & _sig_words(t)) / len(new) >= 0.7:
+            return t
+    return ""
+
 
 def word_count(body: str) -> int:
     no_links = LINK_RE.sub(r"\1", body)
@@ -107,6 +127,11 @@ def check_post(post: dict, *, skip_link_check: bool = False,
     titles = known_titles if known_titles is not None else existing_titles()
     if title.lower() in titles:
         failures.append("duplicate title already published")
+    else:
+        match = similar_title_exists(title, titles)
+        if match:
+            failures.append(
+                f'covers the same story as published post "{match}"')
 
     if not skip_link_check:
         for u in dict.fromkeys(body_links + list(post.get("sources", []))):

@@ -58,8 +58,9 @@ def triage_sector(sector: str, candidates: list, run_id: str,
         lines.append(f'{c["id"]}. [{c["feed"]} | {c["source_class"]}] '
                      f'{c["title"]} :: {c["summary"][:400]}')
     recent = recent_titles(sector)
-    recent_block = ("Recently published on this sector page (do not pick "
-                    "items covering the same story):\n- " +
+    recent_block = ("Recently published on this sector page. A candidate "
+                    "that covers the same story as any of these, from any "
+                    "outlet, scores 0:\n- " +
                     "\n- ".join(recent)) if recent else ""
 
     user = f"""Sector: {config.SECTORS[sector]['name']}
