@@ -1,0 +1,17 @@
+---
+title: "Data center heat island scrutiny grows despite limited evidence"
+date: 2026-08-24T07:56:48-07:00
+summary: "A preprint paper claims data centers raise local temperatures, adding fuel to community opposition."
+tags: ["data-centers", "heat-island", "permitting", "environmental"]
+source_type: research
+sources:
+  - "https://journal.uptimeinstitute.com/data-centers-face-new-scrutiny-over-heat-island-effect/"
+---
+
+A preprint paper linking data centers to local temperature increases is adding fuel to community opposition against new builds, according to the [Uptime Institute Journal](https://journal.uptimeinstitute.com/data-centers-face-new-scrutiny-over-heat-island-effect/). Researchers led by Professor Andrea Marinoni at the University of Cambridge used NASA satellite data to claim that operational data centers warm their surroundings by an average of 2°C (3.6°F), with some cases up to 9°C (16°F). The paper, titled "The data heat island effect: quantifying the impact of AI data centers in a warming world," has not been peer-reviewed but received mainstream media coverage, including CNN describing the findings as alarming. Residents near data center hubs like Slough in the UK have complained about hotspots during heatwaves.
+
+The analysis examined 8,472 data centers built outside urban areas between 2004 and 2024, using a 500-meter resolution land surface temperature dataset. However, the dataset consists mostly of smaller facilities around 10 to 20 MW that predate the AI boom, despite the paper describing them as "AI hyperscalers." Critics note that the concrete roofs and carparks of data centers alone produce a heat island effect sufficient to explain the observed temperature increases, without invoking waste heat. All buildings are warmer than their surroundings due to thermal properties of construction materials, and cities can be up to 12°C (54°F) warmer than surrounding rural areas.
+
+Data center operators will encounter heat island concerns in community engagement and permitting processes. Local authorities already require environmental impact analysis, often demanding computational fluid dynamics (CFD) simulations to demonstrate acceptable heat, noise, and pollutant levels around facilities. Planning regimes require the same mitigation measures as other buildings, including green spaces and designs that limit solar gain. The heat island effect created by construction materials and heat rejection systems is already within the remit of local permitting. National groups opposing data centers, including Good Jobs First, have added the heat island effect to the list of harms that operators should address through Local Benefits Agreements.
+
+Although waste heat currently contributes minimally to local warming, its impact will grow as facilities expand and densities increase. Behind-the-meter power generation by thermal systems such as gas turbines will further increase on-site heat output. Efficiency improvements will partially offset this, and waste heat storage and reuse can capture heat load rather than venting it into the environment. The Global Urban Data Centres Pact, launched in June 2026 by a coalition of mayors from 41 cities across six continents, has raised this consideration. Operators should prepare to demonstrate monitoring and mitigation measures as heat island concerns become part of the folklore of data center opposition.
