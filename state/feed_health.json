@@ -40,7 +40,8 @@
   "fails": 0
  },
  "https://www.fierce-network.com/rss/xml": {
-  "fails": 0
+  "fails": 2,
+  "last_error": "503 Server Error: Service Unavailable for url: https://www.fierce-network.com/rss/xml"
  },
  "https://www.rcrwireless.com/feed": {
   "fails": 0
