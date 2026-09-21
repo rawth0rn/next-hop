@@ -1,31 +1,25 @@
 # Next Hop run digest
 
-Run: run-20260914T142204Z  
+Run: run-20260921T142041Z  
 Status: partial  
-Run cost: $0.3586  
-Month-to-date: $0.4600
+Run cost: $0.1714  
+Month-to-date: $0.7638
 
 ## Published
-- [iot-edge] [Iridium NTN Direct enables satellite voice for IoT with Deutsche Telekom and Toyota](https://rawth0rn.github.io/next-hop/iot-edge/2026-09-14-iridium-ntn-direct-enables-satellite-voice-for-iot-with-deut/)
-- [iot-edge] [Research Maps 5G to 6G Transition Risks](https://rawth0rn.github.io/next-hop/iot-edge/2026-09-14-research-maps-5g-to-6g-transition-risks/)
-- [iot-edge] [Survey maps quantum-safe crypto migration for networks](https://rawth0rn.github.io/next-hop/iot-edge/2026-09-14-survey-maps-quantum-safe-crypto-migration-for-networks/)
-- [data-center] [Oracle adds $700m to restructuring costs as layoffs expand](https://rawth0rn.github.io/next-hop/data-center/2026-09-14-oracle-adds-700m-to-restructuring-costs-as-layoffs-expand/)
-- [data-center] [Fujitsu Monaka CPU and server ship November 2026](https://rawth0rn.github.io/next-hop/data-center/2026-09-14-fujitsu-monaka-cpu-and-server-ship-november-2026/)
-- [cloud-native] [Cilium 1.20 Adds ENI IPv6 Support on AWS](https://rawth0rn.github.io/next-hop/cloud-native/2026-09-14-cilium-1-20-adds-eni-ipv6-support-on-aws/)
-- [cloud-native] [NetMon Hybrid Monitoring Detects 5G Core Faults in Seconds](https://rawth0rn.github.io/next-hop/cloud-native/2026-09-14-netmon-hybrid-monitoring-detects-5g-core-faults-in-seconds/)
-- [cloud-native] [eBPF/XDP-Based NIDS Architecture Trade-offs for DDoS Detection](https://rawth0rn.github.io/next-hop/cloud-native/2026-09-14-ebpf-xdp-based-nids-architecture-trade-offs-for-ddos-detecti/)
-- [telecom] [Verizon and Samsung Trial ISAC on vRAN for Venue Crowd Mapping](https://rawth0rn.github.io/next-hop/telecom/2026-09-14-verizon-and-samsung-trial-isac-on-vran-for-venue-crowd-mappi/)
-- [telecom] [Viasat and Space42 commit $1 billion to shared satellite infrastructure JV](https://rawth0rn.github.io/next-hop/telecom/2026-09-14-viasat-and-space42-commit-1-billion-to-shared-satellite-infr/)
-- [physical-infrastructure] [Teravolt targets legacy industrial sites for AI data center conversion](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-09-14-teravolt-targets-legacy-industrial-sites-for-ai-data-center/)
-- [physical-infrastructure] [Huawei proposes near-packaged optics as co-packaged costs bite](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-09-14-huawei-proposes-near-packaged-optics-as-co-packaged-costs-bi/)
-- [satellite-space] [Eutelsat orders 229 OneWeb refresh satellites and IRIS² spacecraft](https://rawth0rn.github.io/next-hop/satellite-space/2026-09-14-eutelsat-orders-229-oneweb-refresh-satellites-and-iris-space/)
-- [satellite-space] [Stc Group orders dedicated Astranis satellite for Saudi Arabia](https://rawth0rn.github.io/next-hop/satellite-space/2026-09-14-stc-group-orders-dedicated-astranis-satellite-for-saudi-arab/)
-- [satellite-space] [Iridium Tests NB-IoT Voice Messaging From Toyota Vehicle Via Satellite](https://rawth0rn.github.io/next-hop/satellite-space/2026-09-14-iridium-tests-nb-iot-voice-messaging-from-toyota-vehicle-via/)
+- [iot-edge] [GeoRIS Geofences Indoor 5G Using Reconfigurable Intelligent Surfaces](https://rawth0rn.github.io/next-hop/iot-edge/2026-09-21-georis-geofences-indoor-5g-using-reconfigurable-intelligent/)
+- [data-center] [Virginia governor limits data center permitting and NDAs](https://rawth0rn.github.io/next-hop/data-center/2026-09-21-virginia-governor-limits-data-center-permitting-and-ndas/)
+- [physical-infrastructure] [Virginia limits datacenter NDAs and tightens environmental permits](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-09-21-virginia-limits-datacenter-ndas-and-tightens-environmental-p/)
+- [satellite-space] [Pattern-Aware Virtual Network Embedding for Cloud Data Centers](https://rawth0rn.github.io/next-hop/satellite-space/2026-09-21-pattern-aware-virtual-network-embedding-for-cloud-data-cente/)
+- [satellite-space] [Tom Watson joins Palantir as £330M NHS contract faces termination risk](https://rawth0rn.github.io/next-hop/satellite-space/2026-09-21-tom-watson-joins-palantir-as-330m-nhs-contract-faces-termina/)
+
+## Sectors with no post this run
+- cloud-native: nothing scored above threshold (75 considered)
+- telecom: nothing scored above threshold (120 considered)
 
 ## Dropped by QA
-- telecom: SES completes O3b mPOWER MEO constellation (Unterminated string starting at: line 9 column 20 (char 264))
+- data-center: Clop gets a taste of its own medicine after ShinyHunters hijack leak s (QA failed twice: body links do not include the primary source; link check failed: https://www.asteralabs.com/news/astera-labs-leo-2-leo-x-pcie-gen6-cxl-memory-controllers)
 
 ## Warnings
 - feed auto-disabled after repeated failures: Fierce Network
 
-Generated 2026-09-14T08:12:53-07:00
+Generated 2026-09-21T07:40:42-07:00
