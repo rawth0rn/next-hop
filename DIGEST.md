@@ -1,31 +1,30 @@
 # Next Hop run digest
 
-Run: run-20261012T141048Z  
+Run: run-20261026T140032Z  
 Status: partial  
-Run cost: $0.2773  
-Month-to-date: $0.3556
+Run cost: $0.1817  
+Month-to-date: $0.5928
 
 ## Published
-- [iot-edge] [DECT NR+ Topology Algorithms Stabilize Dense IoT Mesh Networks](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-12-dect-nr-topology-algorithms-stabilize-dense-iot-mesh-network/)
-- [iot-edge] [Post-Quantum Matter over Thread Requires 6 kB Handshakes](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-12-post-quantum-matter-over-thread-requires-6-kb-handshakes/)
-- [iot-edge] [EARI-MAC: Energy-Aware MAC for IoT Harvesting](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-12-eari-mac-energy-aware-mac-for-iot-harvesting/)
-- [cloud-native] [AWS adds cross-account canary routing with VPC Lattice and API Gateway](https://rawth0rn.github.io/next-hop/cloud-native/2026-10-12-aws-adds-cross-account-canary-routing-with-vpc-lattice-and-a/)
-- [cloud-native] [Meshery reaches CNCF incubation as infrastructure management plane](https://rawth0rn.github.io/next-hop/cloud-native/2026-10-12-meshery-reaches-cncf-incubation-as-infrastructure-management/)
-- [cloud-native] [NVIDIA Open Sources DOCA GPUNetIO for GPU-Driven Networking](https://rawth0rn.github.io/next-hop/cloud-native/2026-10-12-nvidia-open-sources-doca-gpunetio-for-gpu-driven-networking/)
-- [telecom] [SpaceX buys Grain 800 MHz spectrum for terrestrial Starlink Mobile network](https://rawth0rn.github.io/next-hop/telecom/2026-10-12-spacex-buys-grain-800-mhz-spectrum-for-terrestrial-starlink/)
-- [telecom] [EXA Infrastructure plans 500 Tbps transatlantic cable for 2029](https://rawth0rn.github.io/next-hop/telecom/2026-10-12-exa-infrastructure-plans-500-tbps-transatlantic-cable-for-20/)
-- [telecom] [Nokia launches GPU-based AI-RAN with Nvidia](https://rawth0rn.github.io/next-hop/telecom/2026-10-12-nokia-launches-gpu-based-ai-ran-with-nvidia/)
-- [physical-infrastructure] [Drone strikes damage Yandex datacenters and cut network connectivity](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-10-12-drone-strikes-damage-yandex-datacenters-and-cut-network-conn/)
-- [physical-infrastructure] [Zella DC ships stackable modular data centers for edge and AI](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-10-12-zella-dc-ships-stackable-modular-data-centers-for-edge-and-a/)
-- [satellite-space] [Astrolight demonstrates end-to-end space-to-ground laser links](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-12-astrolight-demonstrates-end-to-end-space-to-ground-laser-lin/)
-- [satellite-space] [SpaceX Acquires Low-Band Spectrum for Indoor Starlink Mobile](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-12-spacex-acquires-low-band-spectrum-for-indoor-starlink-mobile/)
-- [satellite-space] [Amazon Kuiper reaches 1,000 satellites manufactured](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-12-amazon-kuiper-reaches-1-000-satellites-manufactured/)
+- [iot-edge] [PHY Wireless and Ubiik integrate positioning into private LTE/5G](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-26-phy-wireless-and-ubiik-integrate-positioning-into-private-lt/)
+- [iot-edge] [CSL Group acquires SIMPL Wireless for North American eSIM expansion](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-26-csl-group-acquires-simpl-wireless-for-north-american-esim-ex/)
+- [iot-edge] [Tesco swaps VMware for Proxmox at retail edge](https://rawth0rn.github.io/next-hop/iot-edge/2026-10-26-tesco-swaps-vmware-for-proxmox-at-retail-edge/)
+- [telecom] [Verizon signs $2B dark fibre deal with AWS](https://rawth0rn.github.io/next-hop/telecom/2026-10-26-verizon-signs-2b-dark-fibre-deal-with-aws/)
+- [telecom] [VMO2 reports around 20% spectral efficiency gain in AI RAN trial](https://rawth0rn.github.io/next-hop/telecom/2026-10-26-vmo2-reports-around-20-spectral-efficiency-gain-in-ai-ran-tr/)
+- [telecom] [DT-STABLE Framework Manages LEO Interference Using Digital Twins](https://rawth0rn.github.io/next-hop/telecom/2026-10-26-dt-stable-framework-manages-leo-interference-using-digital-t/)
+- [satellite-space] [Solstar Tests In-Space Wi-Fi During NASA Rendezvous Mission](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-26-solstar-tests-in-space-wi-fi-during-nasa-rendezvous-mission/)
+- [satellite-space] [AnySignal to supply integrated comms for Reflect Orbital missions](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-26-anysignal-to-supply-integrated-comms-for-reflect-orbital-mis/)
+- [satellite-space] [Iceye and Nokia partner on Ukraine satcom system](https://rawth0rn.github.io/next-hop/satellite-space/2026-10-26-iceye-and-nokia-partner-on-ukraine-satcom-system/)
 
 ## Sectors with no post this run
 - data-center: nothing scored above threshold (0 considered)
+- cloud-native: nothing scored above threshold (0 considered)
+- physical-infrastructure: nothing scored above threshold (0 considered)
 
 ## Warnings
 - feed auto-disabled after repeated failures: Fierce Network
 - error: triage data-center: LLM call failed after 3 attempts (model=deepseek/deepseek-v4-flash, stage=triage:data-center): empty completion (finish_reason=length)
+- error: triage cloud-native: Unterminated string starting at: line 4 column 7 (char 28)
+- error: triage physical-infrastructure: Unterminated string starting at: line 4 column 38 (char 234)
 
-Generated 2026-10-12T07:36:19-07:00
+Generated 2026-10-26T07:33:33-07:00
