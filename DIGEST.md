@@ -1,33 +1,33 @@
 # Next Hop run digest
 
-Run: run-20261102T151550Z  
+Run: run-20261109T152534Z  
 Status: partial  
-Run cost: $0.2787  
-Month-to-date: $0.3274
+Run cost: $0.2871  
+Month-to-date: $0.6531
 
 ## Published
-- [iot-edge] [Renesas launches RL78/G21 MCU with 34 μA/MHz power and 4 kV ESD](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-02-renesas-launches-rl78-g21-mcu-with-34-a-mhz-power-and-4-kv-e/)
-- [iot-edge] [KTL expands NR-NTN test capabilities with Keysight](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-02-ktl-expands-nr-ntn-test-capabilities-with-keysight/)
-- [iot-edge] [Semtech adds FIPS 140-3 to AirLink routers via software update](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-02-semtech-adds-fips-140-3-to-airlink-routers-via-software-upda/)
-- [cloud-native] [Ordered Chaos paper offers adaptive multipath load balancing with fast loss detection](https://rawth0rn.github.io/next-hop/cloud-native/2026-11-02-ordered-chaos-paper-offers-adaptive-multipath-load-balancing/)
-- [cloud-native] [Tetragon v1.7 hardens its gRPC admin API using eBPF sensors](https://rawth0rn.github.io/next-hop/cloud-native/2026-11-02-tetragon-v1-7-hardens-its-grpc-admin-api-using-ebpf-sensors/)
-- [physical-infrastructure] [Meta Unveils IceCube 102.4 Tb/s Liquid-Cooled Switch](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-02-meta-unveils-icecube-102-4-tb-s-liquid-cooled-switch/)
-- [physical-infrastructure] [Uptime Institute details IT-agnostic liquid cooling design](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-02-uptime-institute-details-it-agnostic-liquid-cooling-design/)
-- [physical-infrastructure] [Hyperscalers shift to privately owned subsea cables](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-02-hyperscalers-shift-to-privately-owned-subsea-cables/)
-- [satellite-space] [Northwood Space Raises $375M to Scale Antenna Production](https://rawth0rn.github.io/next-hop/satellite-space/2026-11-02-northwood-space-raises-375m-to-scale-antenna-production/)
-- [satellite-space] [Himera and GomSpace test Obria Nano satellite for Ukrainian network](https://rawth0rn.github.io/next-hop/satellite-space/2026-11-02-himera-and-gomspace-test-obria-nano-satellite-for-ukrainian/)
-
-## Sectors with no post this run
-- data-center: nothing scored above threshold (0 considered)
-- telecom: nothing scored above threshold (0 considered)
+- [iot-edge] [Nordic nRF71 Series enables battery-powered Wi-Fi edge AI devices](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-09-nordic-nrf71-series-enables-battery-powered-wi-fi-edge-ai-de/)
+- [iot-edge] [Orange joins quantum-safe factory eSIM provisioning program](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-09-orange-joins-quantum-safe-factory-esim-provisioning-program/)
+- [iot-edge] [REGULUS edge AI SoC delivers 10 TOPS at under 3W for Physical AI](https://rawth0rn.github.io/next-hop/iot-edge/2026-11-09-regulus-edge-ai-soc-delivers-10-tops-at-under-3w-for-physica/)
+- [data-center] [Arista Outlines Ethernet Roadmap for 10-Gigawatt AI Clusters](https://rawth0rn.github.io/next-hop/data-center/2026-11-09-arista-outlines-ethernet-roadmap-for-10-gigawatt-ai-clusters/)
+- [data-center] [Marvell acquires Lumentum for $80 billion to secure AI laser supply](https://rawth0rn.github.io/next-hop/data-center/2026-11-09-marvell-acquires-lumentum-for-80-billion-to-secure-ai-laser/)
+- [data-center] [NVIDIA open-source tools reduce 5G simulation times to minutes](https://rawth0rn.github.io/next-hop/data-center/2026-11-09-nvidia-open-source-tools-reduce-5g-simulation-times-to-minut/)
+- [cloud-native] [AWS Client VPN adds device posture assessment with Cedar policies](https://rawth0rn.github.io/next-hop/cloud-native/2026-11-09-aws-client-vpn-adds-device-posture-assessment-with-cedar-pol/)
+- [cloud-native] [AWS PrivateLink adds tunnel endpoints for CIDR-based access](https://rawth0rn.github.io/next-hop/cloud-native/2026-11-09-aws-privatelink-adds-tunnel-endpoints-for-cidr-based-access/)
+- [cloud-native] [AWS documents mTLS over QUIC using NLB passthrough and EKS](https://rawth0rn.github.io/next-hop/cloud-native/2026-11-09-aws-documents-mtls-over-quic-using-nlb-passthrough-and-eks/)
+- [telecom] [Rakuten and AST SpaceMobile form satellite direct-to-device venture in Japan](https://rawth0rn.github.io/next-hop/telecom/2026-11-09-rakuten-and-ast-spacemobile-form-satellite-direct-to-device/)
+- [telecom] [SpaceX and Qualcomm to build fourth US 5G network with custom silicon](https://rawth0rn.github.io/next-hop/telecom/2026-11-09-spacex-and-qualcomm-to-build-fourth-us-5g-network-with-custo/)
+- [physical-infrastructure] [Europe-wide protests demand data center construction moratorium](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-09-europe-wide-protests-demand-data-center-construction-morator/)
+- [physical-infrastructure] [OpenAI rebrands data centers as compute campuses](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-09-openai-rebrands-data-centers-as-compute-campuses/)
+- [physical-infrastructure] [AI factories use private optical networks to bypass power limits](https://rawth0rn.github.io/next-hop/physical-infrastructure/2026-11-09-ai-factories-use-private-optical-networks-to-bypass-power-li/)
+- [satellite-space] [CesiumAstro raises $730M for Synchronicity LEO constellation](https://rawth0rn.github.io/next-hop/satellite-space/2026-11-09-cesiumastro-raises-730m-for-synchronicity-leo-constellation/)
+- [satellite-space] [CesiumAstro unveils 737-satellite Synchronicity constellation after Element-1 success](https://rawth0rn.github.io/next-hop/satellite-space/2026-11-09-cesiumastro-unveils-737-satellite-synchronicity-constellatio/)
+- [satellite-space] [AST SpaceMobile to build Blacklift rocket with Firefly engines](https://rawth0rn.github.io/next-hop/satellite-space/2026-11-09-ast-spacemobile-to-build-blacklift-rocket-with-firefly-engin/)
 
 ## Dropped by QA
-- cloud-native: Designing geo-segmented AWS Cloud WAN with service insertion (QA failed twice: summary too long (184 chars, max 180))
-- satellite-space: MDA Space to Build Antenna Subsystems for 66 IRIS² LEO Satellites (Unterminated string starting at: line 8 column 5 (char 307))
+- telecom: Rakuten, AST unveil Japan satellite JV (QA failed twice: body too short (237 words, need 250-500); covers the same story as published post "rakuten and ast spacemobile form satellite direct-to-device venture in japan")
 
 ## Warnings
 - feed auto-disabled after repeated failures: Fierce Network
-- error: triage data-center: Unterminated string starting at: line 26 column 16 (char 789)
-- error: triage telecom: LLM call failed after 3 attempts (model=deepseek/deepseek-v4-flash, stage=triage:telecom): empty completion (finish_reason=length)
 
-Generated 2026-11-02T07:52:39-08:00
+Generated 2026-11-09T08:12:19-08:00
